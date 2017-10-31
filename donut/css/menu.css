@@ -1,0 +1,40 @@
+html {
+  background-image: url('img/zt.jpg');
+}
+.main {
+  text-align: center;
+  background-color: white;
+  opacity: 0.8;
+  margin: 40px;
+  font-family: 'Indie Flower', cursive;
+  color: #4d3319;
+}
+h1 {
+  background-color: white;
+
+}
+p {
+ font-size: 20px;
+
+}
+p:hover {
+  background-color: #ffe6cc;
+  transform: scale(1.1);
+  transition: all .2s ease-in-out;
+}
+h2 {
+  color: white;
+  opacity: 0.5;
+  font-family: 'Indie Flower', cursive;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background: url('img/ar2.png') center / 100px 60px no-repeat;
+}
+h2:hover {
+  transform: scale(1.1);
+  transition: all .2s ease-in-out;
+}
+a {
+  text-decoration: none;
+}

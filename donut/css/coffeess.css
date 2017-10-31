@@ -1,0 +1,80 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+html, body {
+ height: 100%;
+ width: 100%;
+
+}
+.gation {
+ display: flex;
+ justify-content: space-around;
+ align-items: baseline;
+ font-size: 20px;
+ flex-wrap: wrap;
+ margin-top: 30px;
+ color: #4d3319;
+ font-family: 'Sedgwick Ave', cursive;
+ padding-bottom: 8px;
+}
+a:link {
+ text-decoration: none;
+ color: #4d3319;
+}
+.gif {
+ margin-top: 10px;
+ font-family: 'Playfair Display', serif;
+ font-size: 60px;
+ background: url('img/donut.gif') left / 80px 50px no-repeat;
+ text-decoration-style: dotted;
+}
+.bt:hover {
+ background-color: #ffe6e6;
+ border-radius: 20px;
+ color: white;
+}
+#log {
+ border: 1px solid #4d3319;
+ padding: 3px 5px 3px 5px;
+ color: #4d3319;;
+}
+
+div.container {
+  margin-top: 20px;
+  align-items: center;
+  align-self: center;
+  background: url('img/don.jpg') center;
+  display: flex;
+  flex-direction: column;
+  min-height: 900px;
+  justify-content: center;
+  width: 100%;
+  animation: example 7s linear infinite;
+}
+h1 {
+  color: #fff;
+  font-family: 'Indie Flower', cursive;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 46px;
+  margin: 0 0 60px 0;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+  width: 50%;
+}
+@media (max-width:480px) {
+h1 {
+  visibility: hidden;
+}
+fieldset {
+  width: 100px;
+  text-align: center;
+}
+}
+@keyframes example {
+  0% {background-image: url('img/don.jpg');}
+  50% {background-image: url('img/3cups.jpg');}
+  100% {background-image: url('img/zt.jpg');}
+}
